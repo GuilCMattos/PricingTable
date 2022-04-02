@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+    --yellow: #ffcc29;
+    --blue: #1d539e;
+    --gray: #828799;
+    --page-background: #f9fbfc;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+   
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--page-background);
+   
+}
+
+header {
+    text-align: center;
+    padding: 100px 0px 40px 0px;
+    background-color: var(--blue);
+    color: var(--page-background);
+
+}
+
+
+
+header h1 {
+    font-size: 48px;
+
+}
+
+header p {
+    margin-top: 30px;
+    max-width: 500px;
+    margin: 30px auto;
+    font-size: 18px;
+
+}
+
+hr.solid {
+    border-top: 1px var(--gray)
+}
+
+.prices {
+  width: 65%;
+  border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.prices>div {
+    flex: 1 1 100px;
+    margin-left: 40px;
+    margin-top: 50px;
+
+}
+
+.simpleTable {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.simpleTable>h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.simpleTable>.price {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+
+.simpleTable>.price>.zero {
+    font-size: 18px;
+}
+
+.simpleTable>.price>.month {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--gray);
+
+}
+
+.simpleTable>.description {
+    font-size: 14px;
+    color: var(--gray);
+    margin-bottom: 15px;
+
+}
+
+.simpleTable>hr {
+
+    border-color: var(--gray);
+    margin-bottom: 20px;
+
+}
+
+
+
+.simpleTable ul {
+    margin-bottom: 50px;
+    
+}
+
+
+.simpleTable ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--gray);
+    margin-bottom: 10px;
+
+}
+
+.simpleTable ul li img {
+    margin-right: 10px;
+
+}
+
+.simpleTable button {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 24px;
+    background-color: var(--page-background);
+    font-size: 18px;
+    color: #1D539E;
+    border: 1px solid #1D539E;
+    box-sizing: border-box;
+    border-radius: 10px;
+    align-content: flex-start;
+    margin-top: auto;
+}
+
+
+.simpleTable button:hover {
+    background-color: var(--blue);
+    color: white;
+    border: 1px solid #1D539E;
+    cursor: pointer;
+}
+
+.bestPrice {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.bestPrice>h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+    margin: -60px -40px -60px -40px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: var(--yellow);
+    color: var(--blue);
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.425);
+
+}
+
+.bestPrice h3 span {
+    background-color: var(--blue);
+    color: white;
+    padding: 5px 15px 5px 15px;
+    font-size: 10px;
+    border-radius: 40px;
+}
+
+.bestPrice>.price {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.bestPrice>.price>.zero {
+    font-size: 18px;
+}
+
+.bestPrice>.price>.month {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--gray);
+
+}
+
+.bestPrice>.description {
+    font-size: 14px;
+    color: var(--gray);
+    margin-bottom: 12px;
+
+}
+
+.bestPrice>hr {
+
+    border-color: var(--gray);
+    margin-bottom: 20px;
+
+}
+
+
+
+.bestPrice ul li {
+    display: flex;
+    align-items: center;
+   list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--gray);
+    margin-bottom: 10px;
+   
+    
+
+}
+
+.bestPrice ul li img {
+    margin-right: 10px;
+}
+
+
+
+.bestPrice button {
+    margin-top: auto;
+    /* align-self: flex-end; */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 24px;
+    background-color: var(--blue);
+    font-size: 18px;
+    color: white;
+    border: 1px solid #1D539E;
+    box-sizing: border-box;
+    border-radius: 10px;
+   
+
+}
+
+.bestPrice button:hover {
+    background-color: var(--page-background);
+    color: var(--blue);
+    border: 1px solid #1D539E;
+    cursor: pointer;
+}
+
+
